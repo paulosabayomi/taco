@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  background-color: transparent !important;
+}
+
+.header {
+  -webkit-app-region: drag;
+  user-select: none;
+}
+
+.header .absolute {
+  -webkit-app-region: none !important;
+}
